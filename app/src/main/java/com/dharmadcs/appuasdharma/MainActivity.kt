@@ -37,13 +37,18 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun isiGambar( txtHello: TextView, image1: ImageView){
-        val tes = (1 until 3).random()
+        val tes = (1 until 6).random()
         txtHello.text = tes.toString()
 
         when (tes) {
             1 -> image1.setImageDrawable(getDrawable(R.drawable.img1))
             2 -> image1.setImageDrawable(getDrawable(R.drawable.img2))
             3 -> image1.setImageDrawable(getDrawable(R.drawable.img3))
+            4 -> image1.setImageDrawable(getDrawable(R.drawable.img1))
+            5 -> image1.setImageDrawable(getDrawable(R.drawable.img2))
+            else -> { // Note the block
+                image1.setImageDrawable(getDrawable(R.drawable.img3))
+            }
         }
     }
 
