@@ -1,4 +1,3 @@
 # app-uas-dharma
-project app uas android studio kotlin
 
-![ss.png]( {https://user-images.githubusercontent.com/106795089/204615840-c79e9647-b66e-430b-8e2a-a0d0d462af45.jpeg} )
+![WhatsApp Image 2022-11-30 at 1 29 45 AM](https://user-images.githubusercontent.com/106795089/204616528-21e79ac4-e098-4984-891c-bfcd68b6db93.jpeg)
